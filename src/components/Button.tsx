@@ -8,4 +8,4 @@ export function Button(rest: buttonProps) {
     return (
         <button className="button" {...rest} />
     )
-}
+};
