@@ -15,9 +15,15 @@
 
     transition: filter 0.2s;
 
-    // img {
-    //     margin-right: 0.8rem;
-    // }
+    img {
+        margin-right: 0.8rem;
+    }
+
+    &.outlined {
+        background-color: #fff;
+        border: 1px solid var(--default-purple-color);
+        color: var(--default-purple-color);
+    }
 
     &:not(:disabled):hover {
         filter: brightness(0.9);
